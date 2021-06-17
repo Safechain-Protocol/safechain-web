@@ -1,0 +1,20 @@
+// Colors
+$violet: #4458c7;
+$card-title: #383838;
+$card-content: #949494;
+
+// Background Classes
+.bg-violet {
+  background: $violet;
+}
+.bg-black {
+  background: black;
+}
+
+// Text Classes
+.text-violet {
+  color: $violet;
+}
+.text-black {
+  color: black;
+}

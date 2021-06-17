@@ -1,5 +1,8 @@
+import Home from "./pages/Home";
+import "./styles/index.scss";
+
 function App() {
-  return <div className="mt-5">Dummy</div>;
+  return <Home />;
 }
 
 export default App;
