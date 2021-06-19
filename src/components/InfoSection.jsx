@@ -42,7 +42,7 @@ const InfoSection = ({ title, content, illustration, textSide }) => {
               alt="Info Section Illustration"
             />
           </div>
-          <div className="col-md-6 p-0 m-0">
+          <div className="col-md-6 p-0 m-0 text-left">
             <div className="h-100 d-flex flex-column justify-content-center p-5">
               <p className="info-section-title">{title}</p>
               <p className="info-section-content">{content}</p>

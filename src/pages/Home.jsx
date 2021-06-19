@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div>
       <div className="hero-section container d-flex flex-wrap">
-        <div className="col-md-6 d-flex flex-column justify-content-center">
+        <div className="col-md-6 d-flex flex-column justify-content-center hero-section-text-container">
           <p className="hero-title">
             Simple and Secure <br /> All Dimensional VAULT
           </p>
