@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "mont-bold";
+  src: url("../../src/fonts/mont-bold.otf");
+}
+
+@font-face {
+  font-family: "oxygen-bold";
+  src: url("../../src/fonts/oxygen-bold.otf");
+}
+
+@font-face {
+  font-family: "oxygen-regular";
+  src: url("../../src/fonts/oxygen-regular.otf");
+}
+
+@font-face {
+  font-family: "roboto-regular";
+  src: url("../../src/fonts/roboto-regular.ttf");
+}
+
+.mont-bold {
+  font-family: "mont-bold";
+}
+
+.oxygen-bold {
+  font-family: "oxygen-bold";
+}
+
+.roboto-regular {
+  font-family: "roboto-regular";
+}
+
+.oxygen-regular {
+  font-family: "oxygen-regular";
+}

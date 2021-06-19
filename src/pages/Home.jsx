@@ -57,7 +57,9 @@ const Home = () => {
           />
         </div>
 
-        <p className="info-section-title mt-4">Your privacy in your hands</p>
+        <p className="info-section-title mt-4 oxygen-regular">
+          Your privacy in your hands
+        </p>
       </div>
 
       <SectionHeader text="How it works" />

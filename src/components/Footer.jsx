@@ -12,7 +12,7 @@ const Footer = () => {
         <SectionHeader text="An option for anyone" grey={false} />
       </div>
 
-      <p className="footer-text">
+      <p className="footer-text roboto-regular">
         MetaVault is available for Windows, Mac, iOS, and Android with support
         for all their respective major browsers, including Microsoft Edge.
       </p>
