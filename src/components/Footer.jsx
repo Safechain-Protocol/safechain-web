@@ -13,18 +13,15 @@ const Footer = () => {
       </div>
 
       <p className="footer-text">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit Sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna adipiscing elit
-        adipiscing elit aliquam erat volutpat. Lorem ipsum dolor sit amet,
-        consectetuer adipiscing elit roay.{" "}
-        <span className="text-violet">And it's free.</span>
+        MetaVault is available for Windows, Mac, iOS, and Android with support
+        for all their respective major browsers, including Microsoft Edge.
       </p>
 
       <div className="d-flex mb-5">
-        <CircularIcon icon={TelegramIcon} />
-        <CircularIcon icon={InstaIcon} />
-        <CircularIcon icon={TwitterIcon} />
-        <CircularIcon icon={RedditIcon} />
+        <CircularIcon link="https://www.google.com" icon={TelegramIcon} />
+        <CircularIcon link="https://www.google.com" icon={InstaIcon} />
+        <CircularIcon link="https://www.google.com" icon={TwitterIcon} />
+        <CircularIcon link="https://www.google.com" icon={RedditIcon} />
       </div>
 
       <p className="text-black footer-copyright">

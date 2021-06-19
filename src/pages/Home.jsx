@@ -71,10 +71,11 @@ const Home = () => {
         }
         content={
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit Sed diam
-            nonummy nibh euismod tincidunt <br />
-            ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit
-            amet volutpat.
+            MetaVault provides infrastructure security. It protects your data &
+            privacy by using a password manager you can trust. <br />
+            <br /> MetaVault conducts regular third-party security audits and is
+            compliant with Privacy Shield, HIPAA, GDPR, CCPA, and SOC 2 security
+            standards.
           </p>
         }
       />
@@ -84,15 +85,14 @@ const Home = () => {
         illustration={IllustrationTwo}
         title={
           <p>
-            Enterprise-Grade Security <br /> and Compliance
+            Login fast on every device <br /> with secured sharing access
           </p>
         }
         content={
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit Sed diam
-            nonummy nibh euismod tincidunt <br />
-            ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit
-            amet volutpat.
+            Save time by logging into your accounts with a single click or tap.
+            MetaVault is available on every OS. Web access and extensions for
+            all major browsers mean you'll never lose another password!
           </p>
         }
       />
@@ -102,15 +102,17 @@ const Home = () => {
         illustration={IllustrationThree}
         title={
           <p>
-            Enterprise-Grade Security <br /> and Compliance
+            Online Safety and trusted <br /> with shield protection
           </p>
         }
         content={
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit Sed diam
-            nonummy nibh euismod tincidunt <br />
-            ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit
-            amet volutpat.
+            We can’t and don’t want to see your data. Your file is encrypted and
+            stored on your device, so we can’t access it. You are the only one
+            who has access and can choose who can and can’t look at it. <br />
+            <br />
+            We gives you power to create & manage unique passwords, so u can
+            strengthen privacy and boost productivity.
           </p>
         }
       />

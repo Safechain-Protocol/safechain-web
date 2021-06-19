@@ -6,6 +6,7 @@
   text-align: center;
   margin: 1em 0 4em;
   padding: 2em;
+  width: 50%;
 }
 
 .circular-icon {
@@ -19,4 +20,10 @@
   font-size: 0.8em;
   text-align: center;
   padding-bottom: 16px;
+}
+
+@media only screen and (max-width: 720px) {
+  .footer-text {
+    width: 100%;
+  }
 }
