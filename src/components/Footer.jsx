@@ -27,8 +27,8 @@ const Footer = () => {
         <CircularIcon icon={RedditIcon} />
       </div>
 
-      <p className="text-black">
-        Copyright © 2021 MetaVault. All Rights Reserved
+      <p className="text-black footer-copyright">
+        Copyright © 2021 MetaVault. All Rights Reserved.
       </p>
     </div>
   );

@@ -12,8 +12,8 @@ import Mockup from "../assets/mockup.png";
 const Home = () => {
   return (
     <div>
-      <div className="border hero-section container d-flex flex-wrap">
-        <div className="border col-md-6 d-flex flex-column justify-content-center">
+      <div className="hero-section container d-flex flex-wrap">
+        <div className="col-md-6 d-flex flex-column justify-content-center">
           <p className="hero-title">
             Simple and Secure <br /> All Dimensional VAULT
           </p>
@@ -26,7 +26,7 @@ const Home = () => {
             <Button text="Getting Started" />
           </div>
         </div>
-        <div className="border col-md-6 my-auto">
+        <div className="col-md-6 my-auto">
           <img
             className="hero-illustration img-fluid"
             src={HeroIllustration}
@@ -41,22 +41,19 @@ const Home = () => {
       </div>
 
       <SectionHeader text="What brings you MetaVault" />
-      <div className="d-flex flex-column align-items-center w-100 border mx-auto card-container p-4">
-        <div className="d-flex mx-auto mt-3">
+      <div className="d-flex flex-column align-items-center w-100 mx-auto card-container">
+        <div className="d-flex mx-auto mt-3 card-container w-100">
           <Card
             title="Difficult to remember and store passwords"
-            content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+            content="Save time by logging into your accounts with a single click or tap. MetaVault brings you a secured way of all of your card, wallet, address and passwords with secured login share feature by simply recipient's email and tap on share."
           />
           <Card
-            title="Difficult to remember and store passwords"
-            content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+            title="Worried about safety and privacy"
+            content="MetaVault is a decentralized platform which means your data is yours. MetaVault gives your power to control your data at all times, transparently and safely. You are the only one who has access and can choose who can and can't look at it."
           />
           <Card
-            title="Difficult to remember and store passwords"
-            content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+            title="Worrying about someone using your wallet"
+            content="MetVault protects your data and support for two factor authetnication (2FA) to access your account. MetaVault conducts regular third-party security audits and is compliant with Privacy Sheild, HIPAA, GDPR, CCPA, and SOC 2 security standards."
           />
         </div>
 

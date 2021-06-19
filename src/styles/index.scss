@@ -12,3 +12,12 @@
   background-size: 100%;
   padding: 6em 10em;
 }
+
+@media only screen and (max-width: 600px) {
+  .mockup-image {
+    background: url("../assets/bg-illustration.png");
+    background-size: 100%;
+    // padding: 1em 2em
+    padding: 0;
+  }
+}

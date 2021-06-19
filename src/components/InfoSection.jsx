@@ -5,7 +5,11 @@ const InfoSection = ({ title, content, illustration, textSide }) => {
     >
       <div className="border col-md-6 p-0 m-0">
         {textSide === "left" ? (
-          <img src={illustration} alt="Info Section Illustration" />
+          <img
+            className="img-fluid"
+            src={illustration}
+            alt="Info Section Illustration"
+          />
         ) : (
           <div className="h-100 d-flex flex-column justify-content-center border p-5">
             <p className="info-section-title">{title}</p>
@@ -21,7 +25,11 @@ const InfoSection = ({ title, content, illustration, textSide }) => {
           </div>
         ) : (
           <>
-            <img src={illustration} alt="Info Section Illustration" />
+            <img
+              className="img-fluid"
+              src={illustration}
+              alt="Info Section Illustration"
+            />
           </>
         )}
       </div>
