@@ -1,7 +1,9 @@
 // Colors
 $violet: #4458c7;
+$grey: #f6f6f6;
 $card-title: #383838;
 $card-content: #949494;
+$info-section-content: #828282;
 
 // Background Classes
 .bg-violet {
@@ -10,6 +12,9 @@ $card-content: #949494;
 .bg-black {
   background: black;
 }
+.bg-grey {
+  background: $grey;
+}
 
 // Text Classes
 .text-violet {
@@ -17,4 +22,7 @@ $card-content: #949494;
 }
 .text-black {
   color: black;
+}
+.text-grey {
+  color: $grey;
 }

@@ -2,11 +2,15 @@ import Button from "../components/Button";
 import SectionHeader from "../components/SectionHeader";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
+import InfoSection from "../components/InfoSection";
 import HeroIllustration from "../assets/hero.jpg";
+import IllustrationOne from "../assets/info-section-one.png";
+import IllustrationTwo from "../assets/info-section-two.png";
+import IllustrationThree from "../assets/info-section-three.png";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div>
       <div className="border d-flex flex-wrap">
         <div className="border col-md-6 d-flex flex-column justify-content-center">
           <p className="hero-title">
@@ -50,7 +54,61 @@ Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol
 
       <SectionHeader text="More than just a Vault, it's Decentralized." />
       <SectionHeader text="What brings you MetaVault" />
+
       <SectionHeader text="How it works" />
+      <InfoSection
+        textSide="right"
+        illustration={IllustrationOne}
+        title={
+          <p>
+            Enterprise-Grade Security <br /> and Compliance
+          </p>
+        }
+        content={
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit Sed diam
+            nonummy nibh euismod tincidunt <br />
+            ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit
+            amet volutpat.
+          </p>
+        }
+      />
+
+      <InfoSection
+        textSide="left"
+        illustration={IllustrationTwo}
+        title={
+          <p>
+            Enterprise-Grade Security <br /> and Compliance
+          </p>
+        }
+        content={
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit Sed diam
+            nonummy nibh euismod tincidunt <br />
+            ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit
+            amet volutpat.
+          </p>
+        }
+      />
+
+      <InfoSection
+        textSide="right"
+        illustration={IllustrationThree}
+        title={
+          <p>
+            Enterprise-Grade Security <br /> and Compliance
+          </p>
+        }
+        content={
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit Sed diam
+            nonummy nibh euismod tincidunt <br />
+            ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit
+            amet volutpat.
+          </p>
+        }
+      />
 
       <Footer />
     </div>

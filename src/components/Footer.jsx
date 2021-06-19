@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="d-flex flex-column align-items-center border border-success">
       <div className="mt-5">
-        <SectionHeader text="An option for anyone" />
+        <SectionHeader text="An option for anyone" grey={false} />
       </div>
 
       <p className="footer-text">
