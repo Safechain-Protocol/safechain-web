@@ -7,11 +7,12 @@ import HeroIllustration from "../assets/hero.jpg";
 import IllustrationOne from "../assets/info-section-one.png";
 import IllustrationTwo from "../assets/info-section-two.png";
 import IllustrationThree from "../assets/info-section-three.png";
+import Mockup from "../assets/mockup.png";
 
 const Home = () => {
   return (
     <div>
-      <div className="border d-flex flex-wrap">
+      <div className="border hero-section container d-flex flex-wrap">
         <div className="border col-md-6 d-flex flex-column justify-content-center">
           <p className="hero-title">
             Simple and Secure <br /> All Dimensional VAULT
@@ -25,35 +26,42 @@ const Home = () => {
             <Button text="Getting Started" />
           </div>
         </div>
-        <div className="border col-md-6">
+        <div className="border col-md-6 my-auto">
           <img
-            className="hero-illustration"
+            className="hero-illustration img-fluid"
             src={HeroIllustration}
             alt="Hero Illustration"
           />
         </div>
       </div>
 
-      <div className="d-flex mx-auto card-container">
-        <Card
-          title="Difficult to remember and store passwords"
-          content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
-        />
-        <Card
-          title="Difficult to remember and store passwords"
-          content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
-        />
-        <Card
-          title="Difficult to remember and store passwords"
-          content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
-        />
+      <SectionHeader text="More than just a Vault, it's Decentralized." />
+      <div className="mockup-image">
+        <img className="img-fluid" src={Mockup} alt="Mockup" />
       </div>
 
-      <SectionHeader text="More than just a Vault, it's Decentralized." />
       <SectionHeader text="What brings you MetaVault" />
+      <div className="d-flex flex-column align-items-center w-100 border mx-auto card-container p-4">
+        <div className="d-flex mx-auto mt-3">
+          <Card
+            title="Difficult to remember and store passwords"
+            content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+          />
+          <Card
+            title="Difficult to remember and store passwords"
+            content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+          />
+          <Card
+            title="Difficult to remember and store passwords"
+            content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+          />
+        </div>
+
+        <p className="info-section-title mt-4">Your privacy in your hands</p>
+      </div>
 
       <SectionHeader text="How it works" />
       <InfoSection

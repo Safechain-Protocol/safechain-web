@@ -5,3 +5,10 @@
 @import "./footer.scss";
 @import "./hero-section.scss";
 @import "./info-section.scss";
+
+// Extra Classes
+.mockup-image {
+  background: url("../assets/bg-illustration.png");
+  background-size: 100%;
+  padding: 6em 10em;
+}
