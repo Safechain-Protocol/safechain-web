@@ -17,7 +17,26 @@
   .mockup-image {
     background: url("../assets/bg-illustration.png");
     background-size: 100%;
-    // padding: 1em 2em
     padding: 0;
+  }
+}
+
+$width: 720px;
+
+@media only screen and (max-width: $width) {
+  .mobile-div {
+    display: block;
+  }
+  .desktop-div {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: $width) {
+  .mobile-div {
+    display: none;
+  }
+  .desktop-div {
+    display: block;
   }
 }

@@ -7,7 +7,7 @@ import RedditIcon from "../assets/reddit.svg";
 
 const Footer = () => {
   return (
-    <div className="d-flex flex-column align-items-center border border-success">
+    <div className="d-flex flex-column align-items-center">
       <div className="mt-5">
         <SectionHeader text="An option for anyone" grey={false} />
       </div>

@@ -2,7 +2,7 @@ const SectionHeader = ({ text, grey = true }) => {
   return (
     <>
       {grey ? (
-        <div className="d-flex flex-column align-items-center bg-grey border p-5">
+        <div className="d-flex flex-column align-items-center bg-grey p-5">
           <p className="section-header-text text-center">{text}</p>
           <div className="section-header-line"></div>
         </div>
