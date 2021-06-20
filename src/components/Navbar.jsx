@@ -1,14 +1,15 @@
 import Button from "./Button";
+import Logo from "../assets/logo.svg";
 
 const Navbar = () => {
   return (
-    <nav className="border navbar navbar-expand-lg navbar-light p-3">
+    <nav className="sticky-top border navbar navbar-expand-lg navbar-light p-3 bg-white">
       <a
         className="navbar-brand-text navbar-brand footer-logo text-purple text-violet"
         href="/"
       >
         <p className="text-violet font-weight-bold ml-3 my-auto mont-bold">
-          MetaVault
+          <img height={32} src={Logo} alt="SafeChain Logo" />
         </p>
       </a>
       <button
@@ -24,13 +25,18 @@ const Navbar = () => {
       </button>
       <div className="mr-3 collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav ml-auto">
-          <a href="/">
+          <a href="/medium-link">
             <p className="text-violet mont-bold font-weight-bold h-100 d-flex align-items-center ml-3 mr-5 mobile-extra-top-margin">
-              Getting Started
+              Home
+            </p>
+          </a>
+          <a href="/gitcoin-info-link">
+            <p className="text-violet mont-bold font-weight-bold h-100 d-flex align-items-center ml-3 mr-5">
+              Our Gitcoin Page
             </p>
           </a>
           <div className="ml-3">
-            <Button text="Login" />
+            <Button text="Docs" />
           </div>
         </div>
       </div>

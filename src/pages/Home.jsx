@@ -4,9 +4,9 @@ import Card from "../components/Card";
 import Footer from "../components/Footer";
 import InfoSection from "../components/InfoSection";
 import HeroIllustration from "../assets/hero.jpg";
-import IllustrationOne from "../assets/info-section-one.png";
-import IllustrationTwo from "../assets/info-section-two.png";
-import IllustrationThree from "../assets/info-section-three.png";
+import IllustrationOne from "../assets/info-section-one.svg";
+import IllustrationTwo from "../assets/info-section-two.svg";
+import IllustrationThree from "../assets/info-section-three.svg";
 import Mockup from "../assets/mockup.png";
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
           </p>
 
           <div className="mt-3">
-            <Button text="Getting Started" />
+            <Button text="Support Us on GitCoin" />
           </div>
         </div>
         <div className="col-md-6 my-auto">
@@ -35,25 +35,25 @@ const Home = () => {
         </div>
       </div>
 
-      <SectionHeader text="More than just a Vault, it's Decentralized." />
+      <SectionHeader text="How Does It Work" />
       <div className="mockup-image">
         <img className="img-fluid" src={Mockup} alt="Mockup" />
       </div>
 
-      <SectionHeader text="What brings you MetaVault" />
+      <SectionHeader text="Key Features of SafeChain" />
       <div className="d-flex flex-column align-items-center w-100 mx-auto card-container">
         <div className="d-flex mx-auto mt-3 card-container w-100">
           <Card
-            title="Difficult to remember and store passwords"
-            content="Save time by logging into your accounts with a single click or tap. MetaVault brings you a secured way of all of your card, wallet, address and passwords with secured login share feature by simply recipient's email and tap on share."
+            title="All your private keys are stored on blockchain"
+            content="All your private keys are encrypted using AES encrypted and generated public keys which are stored on the blockchain. Data is stored there forever and there is no cost of accessing the raw data."
           />
           <Card
-            title="Worried about safety and privacy"
-            content="MetaVault is a decentralized platform which means your data is yours. MetaVault gives your power to control your data at all times, transparently and safely. You are the only one who has access and can choose who can and can't look at it."
+            title="Only you have access to the raw data hey"
+            content="Best part is your data is more secured to the standard SHA encryption used to generate private public key pairs of wallets. Only you can have access to it as long as your ‘digital safe’ keys are secured."
           />
           <Card
-            title="Worrying about someone using your wallet"
-            content="MetVault protects your data and support for two factor authetnication (2FA) to access your account. MetaVault conducts regular third-party security audits and is compliant with Privacy Sheild, HIPAA, GDPR, CCPA, and SOC 2 security standards."
+            title="Works for all blockchain wallets/private keys"
+            content="Be it netflix password or your primary blockchain wallet, it works for anything and everything. All you need to do is get it encrypted with help of ‘digital safe’ and store the publicly generated data on blockchain."
           />
         </div>
 
@@ -62,22 +62,28 @@ const Home = () => {
         </p>
       </div>
 
-      <SectionHeader text="How it works" />
+      <SectionHeader text="How Secure Is SafeChain" />
+      <p className="footer-text mx-auto">
+        Safechain uses AES symmetric encryption to encrypt your sensitive
+        information before storing it on blockchain. To store the information,
+        it requires one txn. Once data is stored, one can see the encrypted
+        information but can’t access the data until they get the private key of
+        ‘digital safe’. So as long as your digital safe’s private key is secure,
+        it is more secure to storing your sensitive data in google sheets, email
+        or any other methods.
+      </p>
+
       <InfoSection
         textSide="right"
         illustration={IllustrationOne}
-        title={
-          <p>
-            Enterprise-Grade Security <br /> and Compliance
-          </p>
-        }
+        title={<p>Purely decentralized and known non-custodial wallet</p>}
         content={
           <p>
-            MetaVault provides infrastructure security. It protects your data &
-            privacy by using a password manager you can trust. <br />
-            <br /> MetaVault conducts regular third-party security audits and is
-            compliant with Privacy Shield, HIPAA, GDPR, CCPA, and SOC 2 security
-            standards.
+            Purely decentralised and non-custodial wallet Digital safe is first
+            of its kind and purely decentralised. No one has access to the data
+            except the one who owns the digital safe private key. So instead of
+            saving 50 wallet’s private keys, you need to store key of just one
+            safe/wallet.
           </p>
         }
       />
@@ -87,7 +93,8 @@ const Home = () => {
         illustration={IllustrationTwo}
         title={
           <p>
-            Login fast on every device <br /> with secured sharing access
+            Using AES Encryption which is more secure than private keys
+            encrpytion (SHA)
           </p>
         }
         content={

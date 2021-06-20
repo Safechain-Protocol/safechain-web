@@ -9,19 +9,24 @@ const Footer = () => {
   return (
     <div className="d-flex flex-column align-items-center">
       <div className="mt-5">
-        <SectionHeader text="An option for anyone" grey={false} />
+        <SectionHeader text="When Will Be Able To Use" grey={false} />
       </div>
 
       <p className="footer-text roboto-regular">
-        MetaVault is available for Windows, Mac, iOS, and Android with support
-        for all their respective major browsers, including Microsoft Edge.
+        There will be a chrome extension similar to metamask which can be used
+        to access the digital safe. While using it first time, you can generate
+        a safe (blockchain wallet) and store the private key/seed phrase for
+        future references. <br />
+        <br />
+        Post that, you can put any secret information and send the txn on
+        blockchain on periodic basis to store it there. You can login from
+        digital safe anytime/anywhere and retrieve the private keys/password
+        from blockchain.
       </p>
 
       <div className="d-flex mb-5">
-        <CircularIcon link="https://www.google.com" icon={TelegramIcon} />
-        <CircularIcon link="https://www.google.com" icon={InstaIcon} />
+        {/* Gitcoin, Medium, Twitter, Discord */}
         <CircularIcon link="https://www.google.com" icon={TwitterIcon} />
-        <CircularIcon link="https://www.google.com" icon={RedditIcon} />
       </div>
 
       <p className="text-black footer-copyright">
