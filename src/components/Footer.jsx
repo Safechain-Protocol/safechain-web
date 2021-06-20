@@ -6,6 +6,11 @@ import TwitterIcon from "../assets/twitter.svg";
 import MediumIcon from "../assets/medium.svg";
 import DiscordCoin from "../assets/discord.svg";
 
+import GitcoinIconHover from "../assets/gitcoinhover.svg";
+import TwitterIconHover from "../assets/twitterhover.svg";
+import MediumIconHover from "../assets/mediumhover.svg";
+import DiscordIconHover from "../assets/discordhover.svg";
+
 const Footer = () => {
   return (
     <div className="d-flex flex-column align-items-center">
@@ -26,17 +31,26 @@ const Footer = () => {
       </p>
 
       <div className="d-flex mb-5">
-        {/* Gitcoin, Medium, Twitter, Discord */}
-        <CircularIcon link="https://www.google.com" icon={GitcoinIcon} />
+        <CircularIcon
+          link="https://www.google.com"
+          icon={GitcoinIcon}
+          hoverIcon={GitcoinIconHover}
+        />
         <CircularIcon
           link="https://medium.com/@Safechain_Official"
           icon={MediumIcon}
+          hoverIcon={MediumIconHover}
         />
         <CircularIcon
           link="https://twitter.com/safechain_"
           icon={TwitterIcon}
+          hoverIcon={TwitterIconHover}
         />
-        <CircularIcon link="https://discord.gg/2wHt6wMPS5" icon={DiscordCoin} />
+        <CircularIcon
+          link="https://discord.gg/2wHt6wMPS5"
+          icon={DiscordCoin}
+          hoverIcon={DiscordIconHover}
+        />
       </div>
 
       <p className="text-black footer-copyright">

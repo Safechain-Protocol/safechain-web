@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93.213" height="93.213" viewBox="0 0 93.213 93.213">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.036" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00e497"/>
+      <stop offset="1" stop-color="#00af92"/>
+    </linearGradient>
+  </defs>
+  <g id="medium" transform="translate(1 1)">
+    <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="45.607" cy="45.607" rx="45.607" ry="45.607" fill="none" stroke="#00e497" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="iconmonstr-medium-1" d="M4.7,9.415a1.532,1.532,0,0,0-.5-1.294L.5,3.665V3H11.983l8.875,19.465L28.66,3H39.607v.665L36.445,6.7a.926.926,0,0,0-.352.888V29.86a.925.925,0,0,0,.352.886l3.088,3.032v.665H24v-.665l3.2-3.106c.314-.314.314-.406.314-.886v-18L18.62,34.37h-1.2L7.063,11.781v15.14a2.089,2.089,0,0,0,.573,1.736L11.8,33.7v.667H0V33.7l4.16-5.047A2.011,2.011,0,0,0,4.7,26.921V9.415Z" transform="translate(25.236 27.401)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -3,7 +3,7 @@ import SectionHeader from "../components/SectionHeader";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import InfoSection from "../components/InfoSection";
-import HeroIllustration from "../assets/hero.jpg";
+import HeroIllustration from "../assets/hero.svg";
 import IllustrationOne from "../assets/info-section-one.svg";
 import IllustrationTwo from "../assets/info-section-two.svg";
 import IllustrationThree from "../assets/info-section-three.svg";
