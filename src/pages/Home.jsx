@@ -154,7 +154,68 @@ const Home = () => {
       >
         <p className="info-section-title mt-4 oxygen-bold">Roadmap</p>
 
-        <div className="d-flex mx-auto mt-3 card-container w-100">
+        <div class="timeline">
+          <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+            <div class="timeline__event__icon ">
+              <i class="lni-cake"></i>
+            </div>
+            <div class="timeline__event__date">Q2 2021</div>
+            <div class="timeline__event__content ">
+              {/* <div class="timeline__event__title">Birthday</div> */}
+              <div class="timeline__event__description">
+                <p>
+                  Doing POC on ETH blockchain <br />
+                  Apply for GitCoin to get community support
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+            <div class="timeline__event__icon">
+              <i class="lni-burger"></i>
+            </div>
+            <div class="timeline__event__date">Q3 2021</div>
+            <div class="timeline__event__content">
+              {/* <div class="timeline__event__title">Lunch</div> */}
+              <div class="timeline__event__description">
+                <p>
+                  Create chrome extension (like MetaMask) <br />
+                  Provide support to store wallet private keys on all
+                  blockchains
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+            <div class="timeline__event__icon">
+              <i class="lni-slim"></i>
+            </div>
+            <div class="timeline__event__date">Q4 2021</div>
+            <div class="timeline__event__content">
+              {/* <div class="timeline__event__title">Exercise</div> */}
+              <div class="timeline__event__description">
+                <p>
+                  Provide support for other sensitive information (accounts
+                  passwords, secret data etc)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline__event animated fadeInUp timeline__event--type1">
+            <div class="timeline__event__icon">
+              <i class="lni-cake"></i>
+            </div>
+            <div class="timeline__event__date">Q1 2022</div>
+            <div class="timeline__event__content">
+              {/* <div class="timeline__event__title">Birthday</div> */}
+              <div class="timeline__event__description">
+                <p>Launch governance token and hand it over to the community</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="d-flex mx-auto mt-3 card-container w-100">
           <Card
             title="Q2 2021"
             content={
@@ -181,7 +242,7 @@ const Home = () => {
             title="Q1 2022"
             content="Launch governance token and hand it over to the community"
           />
-        </div>
+        </div> */}
       </div>
 
       <div data-aos="fade-in">
