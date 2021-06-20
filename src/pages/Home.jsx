@@ -51,25 +51,25 @@ const Home = () => {
         <div className="d-flex mx-auto mt-3 card-container w-100">
           <Card
             title="All your private keys are stored on blockchain"
-            content="All your private keys are encrypted using AES encrypted and generated public keys which are stored on the blockchain. Data is stored there forever and there is no cost of accessing the raw data."
+            content="All your private keys are encrypted using AES-encryption and generated public keys which are stored on the blockchain. Data is stored there forever and there is no cost of accessing the raw data."
           />
           <Card
-            title="Only you have access to the raw data hey"
-            content="Best part is your data is more secured to the standard SHA encryption used to generate private public key pairs of wallets. Only you can have access to it as long as your ‘digital safe’ keys are secured."
+            title="Only you have access to the raw data key"
+            content="Best part is your data is more secured than standard SHA encryption used to generate private public key pairs of wallets. Only you can have access to it as long as your ‘digital safe’ keys are secured."
           />
           <Card
             title="Works for all blockchain wallets/private keys"
-            content="Be it netflix password or your primary blockchain wallet, it works for anything and everything. All you need to do is get it encrypted with help of ‘digital safe’ and store the publicly generated data on blockchain."
+            content="Be it netflix password or your primary blockchain wallet, it works for anything and everything. All you need to do is get it encrypted with help of our ‘digital safe’ and store the publicly generated data on blockchain."
           />
         </div>
 
-        <p className="info-section-title mt-4 oxygen-regular">
+        {/* <p className="info-section-title mt-4 oxygen-regular">
           Your privacy in your hands
-        </p>
+        </p> */}
       </div>
 
       <SectionHeader text="How Secure Is SafeChain" />
-      <p className="footer-text mx-auto">
+      {/* <p className="footer-text mx-auto">
         Safechain uses AES symmetric encryption to encrypt your sensitive
         information before storing it on blockchain. To store the information,
         it requires one txn. Once data is stored, one can see the encrypted
@@ -77,7 +77,7 @@ const Home = () => {
         ‘digital safe’. So as long as your digital safe’s private key is secure,
         it is more secure to storing your sensitive data in google sheets, email
         or any other methods.
-      </p>
+      </p> */}
 
       <InfoSection
         textSide="right"
@@ -85,11 +85,10 @@ const Home = () => {
         title={<p>Purely decentralized and known non-custodial wallet</p>}
         content={
           <p>
-            Purely decentralised and non-custodial wallet Digital safe is first
-            of its kind and purely decentralised. No one has access to the data
-            except the one who owns the digital safe private key. So instead of
-            saving 50 wallet’s private keys, you need to store key of just one
-            safe/wallet.
+            Our 'digital safe' is first of its kind and purely decentralised. No
+            one has access to the data except the one who owns its private key.
+            So instead of saving 50 wallet’s private keys, you need to store key
+            of just one safe/wallet.
           </p>
         }
       />
@@ -105,9 +104,17 @@ const Home = () => {
         }
         content={
           <p>
-            Save time by logging into your accounts with a single click or tap.
-            SafeChain is available on every OS. Web access and extensions for
-            all major browsers mean you'll never lose another password!
+            Safechain uses AES symmetric encryption to encrypt your sensitive
+            information before storing it on blockchain. To store the
+            information, it requires just one blockchain transaction. Once data
+            is stored, anyone can see the encrypted information
+            <span className="font-weight-bold">
+              {" "}
+              but can’t access the raw data{" "}
+            </span>
+            until they get the private key of ‘digital safe’. So as long as your
+            digital safe’s private key is secure, it is more secure to storing
+            your sensitive data in google sheets, email or any other methods.
           </p>
         }
       />
@@ -140,9 +147,8 @@ const Home = () => {
             title="Q2 2021"
             content={
               <p>
-                Conceptualising the idea <br />
                 Doing POC on ETH blockchain <br />
-                Apply for GitCoin to get community support"
+                Apply for GitCoin to get community support
               </p>
             }
           />
@@ -150,8 +156,8 @@ const Home = () => {
             title="Q3 2021"
             content={
               <p>
-                Create chrome extension (like metamask) <br />
-                Provide support for private keys of all blockchains
+                Create chrome extension (like MetaMask) <br />
+                Provide support to store wallet private keys on all blockchains
               </p>
             }
           />
