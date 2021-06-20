@@ -25,18 +25,18 @@ const Navbar = () => {
       </button>
       <div className="mr-3 collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav ml-auto">
-          <a href="/">
-            <p className="text-violet mont-bold font-weight-bold h-100 d-flex align-items-center ml-3 mr-5 mobile-extra-top-margin">
+          <a href="/" className="nav-container">
+            <p className="mt-3 nav-title text-violet mont-bold font-weight-bold h-100 d-flex align-items-center ml-3 mr-5 mobile-extra-top-margin">
               Home
             </p>
           </a>
-          <a href="https://www.google.com">
-            <p className="text-violet mont-bold font-weight-bold h-100 d-flex align-items-center ml-3 mr-5">
+          <a href="https://www.google.com" className="nav-container">
+            <p className="mt-3 nav-title text-violet mont-bold font-weight-bold h-100 d-flex align-items-center ml-3 mr-5">
               Our Gitcoin Page
             </p>
           </a>
           <div
-            className="ml-3"
+            className="ml-3 mt-2 mx-auto"
             onClick={e => {
               e.preventDefault();
               window.location.href = "https://medium.com/@Safechain_Official";
