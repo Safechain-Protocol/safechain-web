@@ -7,6 +7,10 @@
 @import "./info-section.scss";
 @import "./fonts.scss";
 
+a:hover {
+  text-decoration: none;
+}
+
 // Extra Classes
 .mockup-image {
   background: url("../assets/bg-illustration.svg");

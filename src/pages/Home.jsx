@@ -22,7 +22,13 @@ const Home = () => {
             and wallets.
           </p>
 
-          <div className="mt-3">
+          <div
+            className="mt-3"
+            onClick={e => {
+              e.preventDefault();
+              window.location.href = "https://www.google.com";
+            }}
+          >
             <Button text="Support Us on GitCoin" />
           </div>
         </div>
@@ -125,6 +131,40 @@ const Home = () => {
           </p>
         }
       />
+
+      <div className="bg-grey d-flex flex-column align-items-center w-100 mx-auto card-container">
+        <p className="info-section-title mt-4 oxygen-bold">Roadmap</p>
+
+        <div className="d-flex mx-auto mt-3 card-container w-100">
+          <Card
+            title="Q2 2021"
+            content={
+              <p>
+                Conceptualising the idea <br />
+                Doing POC on ETH blockchain <br />
+                Apply for GitCoin to get community support"
+              </p>
+            }
+          />
+          <Card
+            title="Q3 2021"
+            content={
+              <p>
+                Create chrome extension (like metamask) <br />
+                Provide support for private keys of all blockchains
+              </p>
+            }
+          />
+          <Card
+            title="Q4 2021"
+            content="Provide support for other sensitive information (accounts passwords, secret data etc)"
+          />
+          <Card
+            title="Q1 2022"
+            content="Launch governance token and hand it over to the community"
+          />
+        </div>
+      </div>
 
       <Footer />
     </div>

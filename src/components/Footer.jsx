@@ -1,9 +1,10 @@
 import SectionHeader from "../components/SectionHeader";
 import CircularIcon from "./CircularIcon";
-import TelegramIcon from "../assets/telegram.svg";
-import InstaIcon from "../assets/insta.svg";
+
+import GitcoinIcon from "../assets/gitcoin.svg";
 import TwitterIcon from "../assets/twitter.svg";
-import RedditIcon from "../assets/reddit.svg";
+import MediumIcon from "../assets/medium.svg";
+import DiscordCoin from "../assets/discord.svg";
 
 const Footer = () => {
   return (
@@ -26,7 +27,16 @@ const Footer = () => {
 
       <div className="d-flex mb-5">
         {/* Gitcoin, Medium, Twitter, Discord */}
-        <CircularIcon link="https://www.google.com" icon={TwitterIcon} />
+        <CircularIcon link="https://www.google.com" icon={GitcoinIcon} />
+        <CircularIcon
+          link="https://medium.com/@Safechain_Official"
+          icon={MediumIcon}
+        />
+        <CircularIcon
+          link="https://twitter.com/safechain_"
+          icon={TwitterIcon}
+        />
+        <CircularIcon link="https://discord.gg/2wHt6wMPS5" icon={DiscordCoin} />
       </div>
 
       <p className="text-black footer-copyright">

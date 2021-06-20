@@ -25,17 +25,23 @@ const Navbar = () => {
       </button>
       <div className="mr-3 collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav ml-auto">
-          <a href="/medium-link">
+          <a href="/">
             <p className="text-violet mont-bold font-weight-bold h-100 d-flex align-items-center ml-3 mr-5 mobile-extra-top-margin">
               Home
             </p>
           </a>
-          <a href="/gitcoin-info-link">
+          <a href="https://www.google.com">
             <p className="text-violet mont-bold font-weight-bold h-100 d-flex align-items-center ml-3 mr-5">
               Our Gitcoin Page
             </p>
           </a>
-          <div className="ml-3">
+          <div
+            className="ml-3"
+            onClick={e => {
+              e.preventDefault();
+              window.location.href = "https://medium.com/@Safechain_Official";
+            }}
+          >
             <Button text="Docs" />
           </div>
         </div>
