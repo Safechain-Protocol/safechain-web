@@ -106,7 +106,7 @@ const Home = () => {
         content={
           <p>
             Save time by logging into your accounts with a single click or tap.
-            MetaVault is available on every OS. Web access and extensions for
+            SafeChain is available on every OS. Web access and extensions for
             all major browsers mean you'll never lose another password!
           </p>
         }

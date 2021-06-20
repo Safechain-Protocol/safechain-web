@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
 
       <p className="text-black footer-copyright">
-        Copyright © 2021 MetaVault. All Rights Reserved.
+        Copyright © 2021 Safechain. All Rights Reserved.
       </p>
     </div>
   );
