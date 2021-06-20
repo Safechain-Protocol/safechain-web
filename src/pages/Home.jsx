@@ -112,7 +112,7 @@ const Home = () => {
         }
       />
 
-      <InfoSection
+      {/* <InfoSection
         textSide="right"
         illustration={IllustrationThree}
         title={
@@ -130,7 +130,7 @@ const Home = () => {
             strengthen privacy and boost productivity.
           </p>
         }
-      />
+      /> */}
 
       <div className="bg-grey d-flex flex-column align-items-center w-100 mx-auto card-container">
         <p className="info-section-title mt-4 oxygen-bold">Roadmap</p>
