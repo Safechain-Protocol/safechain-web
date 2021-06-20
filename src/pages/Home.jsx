@@ -12,7 +12,10 @@ import Mockup from "../assets/mockup.png";
 const Home = () => {
   return (
     <div>
-      <div className="hero-section container d-flex flex-wrap">
+      <div
+        data-aos="fade-in"
+        className="hero-section container d-flex flex-wrap"
+      >
         <div className="col-md-6 d-flex flex-column justify-content-center hero-section-text-container">
           <p className="hero-title">
             Simple and Secure <br /> All Dimensional VAULT
@@ -42,12 +45,15 @@ const Home = () => {
       </div>
 
       <SectionHeader text="How Does It Work" />
-      <div className="mockup-image">
+      <div data-aos="fade-in" className="mockup-image">
         <img className="img-fluid" src={Mockup} alt="Mockup" />
       </div>
 
       <SectionHeader text="Key Features of SafeChain" />
-      <div className="d-flex flex-column align-items-center w-100 mx-auto card-container">
+      <div
+        data-aos="fade-in"
+        className="d-flex flex-column align-items-center w-100 mx-auto card-container"
+      >
         <div className="d-flex mx-auto mt-3 card-container w-100">
           <Card
             title="All your private keys are stored on blockchain"
@@ -68,8 +74,9 @@ const Home = () => {
         </p> */}
       </div>
 
-      <SectionHeader text="How Secure Is SafeChain" />
-      {/* <p className="footer-text mx-auto">
+      <div data-aos="fade-in">
+        <SectionHeader text="How Secure Is SafeChain" />
+        {/* <p className="footer-text mx-auto">
         Safechain uses AES symmetric encryption to encrypt your sensitive
         information before storing it on blockchain. To store the information,
         it requires one txn. Once data is stored, one can see the encrypted
@@ -79,45 +86,47 @@ const Home = () => {
         or any other methods.
       </p> */}
 
-      <InfoSection
-        textSide="right"
-        illustration={IllustrationOne}
-        title={<p>Purely decentralized and known non-custodial wallet</p>}
-        content={
-          <p>
-            Our 'digital safe' is first of its kind and purely decentralised. No
-            one has access to the data except the one who owns its private key.
-            No hassles to maintain your wallet private keys. Just keep one safe,
-            and leave the rest to us.
-          </p>
-        }
-      />
+        <InfoSection
+          textSide="right"
+          illustration={IllustrationOne}
+          title={<p>Purely decentralized and known non-custodial wallet</p>}
+          content={
+            <p>
+              Our 'digital safe' is first of its kind and purely decentralised.
+              No one has access to the data except the one who owns its private
+              key. No hassles to maintain your wallet private keys. Just keep
+              one safe, and leave the rest to us.
+            </p>
+          }
+        />
 
-      <InfoSection
-        textSide="left"
-        illustration={IllustrationTwo}
-        title={
-          <p>
-            Using AES Encryption which is more secure than private keys
-            encrpytion (SHA)
-          </p>
-        }
-        content={
-          <p>
-            Safechain uses AES symmetric encryption to encrypt your sensitive
-            information before storing it on blockchain. To store the
-            information, it requires just one blockchain transaction. Once data
-            is stored, anyone can see the encrypted information
-            <span className="font-weight-bold">
-              {" "}
-              but can’t access the raw data{" "}
-            </span>
-            until they get the private key of ‘digital safe’. So as long as your
-            digital safe’s private key is secure, it is more secure to storing
-            your sensitive data in google sheets, email or any other methods.
-          </p>
-        }
-      />
+        <InfoSection
+          textSide="left"
+          illustration={IllustrationTwo}
+          title={
+            <p>
+              Using AES Encryption which is more secure than private keys
+              encrpytion (SHA)
+            </p>
+          }
+          content={
+            <p>
+              Safechain uses AES symmetric encryption to encrypt your sensitive
+              information before storing it on blockchain. To store the
+              information, it requires just one blockchain transaction. Once
+              data is stored, anyone can see the encrypted information
+              <span className="font-weight-bold">
+                {" "}
+                but can’t access the raw data{" "}
+              </span>
+              until they get the private key of ‘digital safe’. So as long as
+              your digital safe’s private key is secure, it is more secure to
+              storing your sensitive data in google sheets, email or any other
+              methods.
+            </p>
+          }
+        />
+      </div>
 
       {/* <InfoSection
         textSide="right"
@@ -139,7 +148,10 @@ const Home = () => {
         }
       /> */}
 
-      <div className="bg-grey d-flex flex-column align-items-center w-100 mx-auto card-container">
+      <div
+        data-aos="fade-in"
+        className="bg-grey d-flex flex-column align-items-center w-100 mx-auto card-container"
+      >
         <p className="info-section-title mt-4 oxygen-bold">Roadmap</p>
 
         <div className="d-flex mx-auto mt-3 card-container w-100">
@@ -172,7 +184,9 @@ const Home = () => {
         </div>
       </div>
 
-      <Footer />
+      <div data-aos="fade-in">
+        <Footer />
+      </div>
     </div>
   );
 };
