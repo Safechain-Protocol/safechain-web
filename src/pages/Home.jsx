@@ -51,7 +51,7 @@ const Home = () => {
         <div className="d-flex mx-auto mt-3 card-container w-100">
           <Card
             title="All your private keys are stored on blockchain"
-            content="All your private keys are encrypted using AES-encryption and generated public keys which are stored on the blockchain. Data is stored there forever and there is no cost of accessing the raw data."
+            content="All your private keys are encrypted Using an industry standard AES-encryption keeping your data secure and generated public keys which are stored on the blockchain. Data is stored there forever and there is no cost of accessing the raw data."
           />
           <Card
             title="Only you have access to the raw data key"
@@ -87,8 +87,8 @@ const Home = () => {
           <p>
             Our 'digital safe' is first of its kind and purely decentralised. No
             one has access to the data except the one who owns its private key.
-            So instead of saving 50 wallet’s private keys, you need to store key
-            of just one safe/wallet.
+            No hassles to maintain your wallet private keys. Just keep one safe,
+            and leave the rest to us.
           </p>
         }
       />
