@@ -65,7 +65,7 @@ const Home = () => {
           />
           <Card
             title="Works for all blockchain wallets and private keys"
-            content="Be it netflix password or your primary blockchain wallet, it works for anything and everything. All you need to do is get it encrypted with help of our ‘digital safe’ and store the publicly generated data on blockchain."
+            content="Be it Netflix password or your primary blockchain wallet, it works for anything and everything. All you need to do is get it encrypted with help of our ‘digital safe’ and store the publicly generated data on blockchain."
           />
         </div>
 
@@ -246,9 +246,7 @@ const Home = () => {
         </div> */}
       </div>
 
-      <div data-aos="fade-in">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 };

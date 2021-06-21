@@ -18,17 +18,19 @@ const Footer = () => {
         <SectionHeader text="When available for use" grey={false} />
       </div>
 
-      <p className="footer-text roboto-regular">
-        There will be a chrome extension similar to MetaMask which can be used
-        to access the digital safe. While using it first time, you can generate
-        a safe (blockchain wallet) and store the private key/seed phrase for
-        future references. <br />
-        <br />
-        Post that, you can put any secret information and send the blockchain
-        transaction on blockchain as per your requirement to store it there. You
-        can login from digital safe anytime/anywhere and retrieve the private
-        keys/password from blockchain.
-      </p>
+      <div data-aos="fade-in">
+        <p className="footer-text roboto-regular">
+          There will be a chrome extension similar to MetaMask which can be used
+          to access the digital safe. While using it first time, you can
+          generate a safe (blockchain wallet) and store the private key/seed
+          phrase for future references. <br />
+          <br />
+          Post that, you can put any secret information and send the blockchain
+          transaction on blockchain as per your requirement to store it there.
+          You can login from digital safe anytime/anywhere and retrieve the
+          private keys/password from blockchain.
+        </p>
+      </div>
 
       <div className="d-flex mb-5">
         <CircularIcon
