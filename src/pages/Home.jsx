@@ -33,7 +33,7 @@ const Home = () => {
             className="mt-3"
             onClick={e => {
               e.preventDefault();
-              window.location.href = "https://www.google.com";
+              window.open("https://gitcoin.co/grants/2982/safechain", "_blank");
             }}
           >
             <Button text="Support Us on GitCoin" />
