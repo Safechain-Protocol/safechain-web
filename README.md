@@ -21,7 +21,7 @@ in multiple locations throughout higher-order components.
 
 ## Pages
 
-It consists of all the pages that the React SPA consists of.
+It consists of all the pages that the React SPA contains.
 
 ## Styles
 
