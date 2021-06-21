@@ -96,7 +96,7 @@ const Home = () => {
         <InfoSection
           textSide="right"
           illustration={IllustrationOne}
-          title={<p>Purely decentralized and known non-custodial wallet</p>}
+          title={<p>Purely decentralized and non-custodial wallet</p>}
           content={
             <p>
               Our 'digital safe' is first of its kind and purely decentralised.

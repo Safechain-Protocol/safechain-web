@@ -6,7 +6,7 @@ const Card = ({ icon, title, content }) => {
     >
       <div className="d-flex align-items-center  mb-1">
         <img className="my-auto" src={icon} alt="Card Icon" />
-        <p className="ml-3 card-title">{title}</p>
+        <p className="ml-3 my-auto card-title">{title}</p>
       </div>
       <p className="card-content mt-2">{content}</p>
     </div>
