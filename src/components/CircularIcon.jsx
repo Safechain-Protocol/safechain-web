@@ -5,24 +5,13 @@ const CircularIcon = ({ icon, hoverIcon, link }) => {
 
   return (
     <a href={link}>
-      {!hover && (
-        <img
-          onMouseEnter={() => setHover(true)}
-          onMouseLeave={() => setHover(false)}
-          className={`circular-icon mx-3 ${hover && "display-none"}`}
-          src={icon}
-          alt="Circular Icon"
-        />
-      )}
-      {hover && (
-        <img
-          onMouseEnter={() => setHover(true)}
-          onMouseLeave={() => setHover(false)}
-          className={`circular-icon mx-3 ${!hover && "display-none"}`}
-          src={hoverIcon}
-          alt="Circular Icon"
-        />
-      )}
+      <img
+        onMouseEnter={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
+        className={`circular-icon mx-3`}
+        src={!hover ? icon : hoverIcon}
+        alt="Circular Icon"
+      />
     </a>
   );
 };
