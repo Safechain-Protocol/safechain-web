@@ -7,6 +7,13 @@
 @import "./info-section.scss";
 @import "./fonts.scss";
 
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
 // Navbar
 .nav-container {
   display: flex;
@@ -72,6 +79,10 @@ a:hover {
     background: url("../assets/bg-illustration.svg");
     background-size: 100%;
     padding: 0;
+  }
+
+  .timeline__event__icon {
+    display: none !important;
   }
 }
 
