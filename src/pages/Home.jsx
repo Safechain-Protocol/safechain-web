@@ -60,14 +60,17 @@ const Home = () => {
       >
         <div className="d-flex mx-auto mt-3 card-container w-100">
           <Card
+            icon={Q1Icon}
             title="All your private keys are stored on blockchain"
             content="All your private keys are encrypted using an industry standard AES-encryption, keeping your data secure even on the blockchain. Data is stored there forever and there is no cost of accessing your data."
           />
           <Card
+            icon={Q4Icon}
             title="Only you have access to your data"
             content="Even if the data is visible to everyone on blockchain, no one else other than you can make sense out of it as it is encrypted. Only you have access to it as long as your ‘digital safe’ key is secured."
           />
           <Card
+            icon={Q3Icon}
             title="Works for all blockchain wallets and private keys"
             content="Be it Netflix password or your primary blockchain wallet, it works for anything and everything. All you need to do is get it encrypted with help of our ‘digital safe’ and store the publicly generated data on blockchain."
           />
@@ -109,8 +112,7 @@ const Home = () => {
           illustration={IllustrationTwo}
           title={
             <p>
-              Using AES Encryption which is more secure than private keys
-              encrpytion (SHA)
+              Using an industry standard AES-encryption keeping your data secure
             </p>
           }
           content={
