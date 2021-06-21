@@ -7,6 +7,10 @@ import HeroIllustration from "../assets/hero.svg";
 import IllustrationOne from "../assets/info-section-one.svg";
 import IllustrationTwo from "../assets/info-section-two.svg";
 import IllustrationThree from "../assets/info-section-three.svg";
+import Q1Icon from "../assets/q1.svg";
+import Q2Icon from "../assets/q2.png";
+import Q3Icon from "../assets/q3.svg";
+import Q4Icon from "../assets/q4.svg";
 import Mockup from "../assets/mockup.png";
 
 const Home = () => {
