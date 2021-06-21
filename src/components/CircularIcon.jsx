@@ -9,7 +9,7 @@ const CircularIcon = ({ icon, hoverIcon, link }) => {
         <img
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}
-          className={`circular-icon mx-3`}
+          className={`circular-icon mx-3 ${hover && "display-none"}`}
           src={icon}
           alt="Circular Icon"
         />
@@ -18,7 +18,7 @@ const CircularIcon = ({ icon, hoverIcon, link }) => {
         <img
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}
-          className={`circular-icon circular-hover mx-3`}
+          className={`circular-icon mx-3 ${!hover && "display-none"}`}
           src={hoverIcon}
           alt="Circular Icon"
         />

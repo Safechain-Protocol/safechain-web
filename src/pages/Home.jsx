@@ -44,7 +44,7 @@ const Home = () => {
         </div>
       </div>
 
-      <SectionHeader text="How Does It Work" />
+      <SectionHeader text="How does it work" />
       <div data-aos="fade-in" className="mockup-image">
         <img className="img-fluid" src={Mockup} alt="Mockup" />
       </div>
@@ -57,14 +57,14 @@ const Home = () => {
         <div className="d-flex mx-auto mt-3 card-container w-100">
           <Card
             title="All your private keys are stored on blockchain"
-            content="All your private keys are encrypted Using an industry standard AES-encryption keeping your data secure and generated public keys which are stored on the blockchain. Data is stored there forever and there is no cost of accessing the raw data."
+            content="All your private keys are encrypted using an industry standard AES-encryption, keeping your data secure even on the blockchain. Data is stored there forever and there is no cost of accessing your data."
           />
           <Card
-            title="Only you have access to the raw data key"
-            content="Best part is your data is more secured than standard SHA encryption used to generate private public key pairs of wallets. Only you can have access to it as long as your ‘digital safe’ keys are secured."
+            title="Only you have access to your data"
+            content="Even if the data is visible to everyone on blockchain, no one else other than you can make sense out of it as it is encrypted. Only you have access to it as long as your ‘digital safe’ key is secured."
           />
           <Card
-            title="Works for all blockchain wallets/private keys"
+            title="Works for all blockchain wallets and private keys"
             content="Be it netflix password or your primary blockchain wallet, it works for anything and everything. All you need to do is get it encrypted with help of our ‘digital safe’ and store the publicly generated data on blockchain."
           />
         </div>
@@ -75,7 +75,7 @@ const Home = () => {
       </div>
 
       <div data-aos="fade-in">
-        <SectionHeader text="How Secure Is SafeChain" />
+        <SectionHeader text="How secure is SafeChain" />
         {/* <p className="footer-text mx-auto">
         Safechain uses AES symmetric encryption to encrypt your sensitive
         information before storing it on blockchain. To store the information,
@@ -120,9 +120,9 @@ const Home = () => {
                 but can’t access the raw data{" "}
               </span>
               until they get the private key of ‘digital safe’. So as long as
-              your digital safe’s private key is secure, it is more secure to
-              storing your sensitive data in google sheets, email or any other
-              methods.
+              your digital safe’s private key is secure, it is more safe than
+              storing your sensitive data on google sheets, email or any other
+              data source.
             </p>
           }
         />
@@ -164,8 +164,8 @@ const Home = () => {
               {/* <div class="timeline__event__title">Birthday</div> */}
               <div class="timeline__event__description">
                 <p>
-                  Doing POC on ETH blockchain <br />
-                  Apply for GitCoin to get community support
+                  • Doing POC on ETH blockchain <br />• Apply for GitCoin to get
+                  community support
                 </p>
               </div>
             </div>
@@ -179,9 +179,8 @@ const Home = () => {
               {/* <div class="timeline__event__title">Lunch</div> */}
               <div class="timeline__event__description">
                 <p>
-                  Create chrome extension (like MetaMask) <br />
-                  Provide support to store wallet private keys on all
-                  blockchains
+                  • Create chrome extension (like MetaMask) <br />• Provide
+                  support to store wallet private keys on all blockchains
                 </p>
               </div>
             </div>
@@ -195,7 +194,7 @@ const Home = () => {
               {/* <div class="timeline__event__title">Exercise</div> */}
               <div class="timeline__event__description">
                 <p>
-                  Provide support for other sensitive information (accounts
+                  • Provide support for other sensitive information (accounts
                   passwords, secret data etc)
                 </p>
               </div>
@@ -209,7 +208,9 @@ const Home = () => {
             <div class="timeline__event__content">
               {/* <div class="timeline__event__title">Birthday</div> */}
               <div class="timeline__event__description">
-                <p>Launch governance token and hand it over to the community</p>
+                <p>
+                  • Launch governance token and hand it over to the community
+                </p>
               </div>
             </div>
           </div>
