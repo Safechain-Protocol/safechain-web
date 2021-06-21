@@ -32,7 +32,7 @@ const Footer = () => {
 
       <div className="d-flex mb-5">
         <CircularIcon
-          link="https://www.google.com"
+          link="https://gitcoin.co/grants/2982/safechain"
           icon={GitcoinIcon}
           hoverIcon={GitcoinIconHover}
         />

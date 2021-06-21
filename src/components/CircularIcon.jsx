@@ -4,7 +4,7 @@ const CircularIcon = ({ icon, hoverIcon, link }) => {
   const [hover, setHover] = useState(false);
 
   return (
-    <a href={link}>
+    <a href={link} target="_blank" rel="noreferrer">
       <img
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
