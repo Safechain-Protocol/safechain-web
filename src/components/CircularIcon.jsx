@@ -9,7 +9,8 @@ const CircularIcon = ({ icon, hoverIcon, link }) => {
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
         className={`circular-icon mx-3`}
-        src={!hover ? icon : hoverIcon}
+        // src={!hover ? icon : hoverIcon}
+        src={icon}
         alt="Circular Icon"
       />
     </a>
