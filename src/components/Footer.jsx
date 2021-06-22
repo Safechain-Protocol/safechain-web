@@ -2,14 +2,14 @@ import SectionHeader from "../components/SectionHeader";
 import CircularIcon from "./CircularIcon";
 
 import GitcoinIcon from "../assets/gitcoin.png";
-import TwitterIcon from "../assets/twitter.svg";
-import MediumIcon from "../assets/medium.svg";
-import DiscordCoin from "../assets/discord.svg";
+import TwitterIcon from "../assets/twitter.png";
+import MediumIcon from "../assets/medium.png";
+import DiscordCoin from "../assets/discord.png";
 
 import GitcoinIconHover from "../assets/gitcoinhover.png";
-import TwitterIconHover from "../assets/twitterhover.svg";
-import MediumIconHover from "../assets/mediumhover.svg";
-import DiscordIconHover from "../assets/discordhover.svg";
+import TwitterIconHover from "../assets/twitterhover.png";
+import MediumIconHover from "../assets/mediumhover.png";
+import DiscordIconHover from "../assets/discordhover.png";
 
 const Footer = () => {
   return (
