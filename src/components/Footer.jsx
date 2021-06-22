@@ -1,12 +1,12 @@
 import SectionHeader from "../components/SectionHeader";
 import CircularIcon from "./CircularIcon";
 
-import GitcoinIcon from "../assets/gitcoin.svg";
+import GitcoinIcon from "../assets/gitcoin.png";
 import TwitterIcon from "../assets/twitter.svg";
 import MediumIcon from "../assets/medium.svg";
 import DiscordCoin from "../assets/discord.svg";
 
-import GitcoinIconHover from "../assets/gitcoinhover.svg";
+import GitcoinIconHover from "../assets/gitcoinhover.png";
 import TwitterIconHover from "../assets/twitterhover.svg";
 import MediumIconHover from "../assets/mediumhover.svg";
 import DiscordIconHover from "../assets/discordhover.svg";
