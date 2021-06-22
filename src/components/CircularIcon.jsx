@@ -6,14 +6,22 @@ const CircularIcon = ({ icon, hoverIcon, link }) => {
   return (
     <a href={link} target="_blank" rel="noreferrer">
       <img
-        onMouseEnter={() => setHover(true)}
-        onMouseLeave={() => setHover(false)}
-        className={`circular-icon mx-3`}
-        src={!hover ? icon : hoverIcon}
-        // src={icon}
+        src={icon}
         alt="Circular Icon"
+        onMouseOver={e => (e.currentTarget.src = hoverIcon)}
+        onMouseOut={e => (e.currentTarget.src = icon)}
       />
     </a>
+    // <a href={link} target="_blank" rel="noreferrer">
+    //   <img
+    //     onMouseOver={() => setHover(true)}
+    //     onMouseOut={() => setHover(false)}
+    //     className={`circular-icon mx-3`}
+    //     src={!hover ? icon : hoverIcon}
+    //     // src={icon}
+    //     alt="Circular Icon"
+    //   />
+    // </a>
   );
 };
 
