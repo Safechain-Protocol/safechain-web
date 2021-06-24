@@ -36,7 +36,7 @@ const Home = () => {
               window.open("https://gitcoin.co/grants/2982/safechain", "_blank");
             }}
           >
-            <Button text="Support Us on GitCoin" />
+            <Button hero text="Support Us on GitCoin" />
           </div>
         </div>
         <div className="col-md-6 my-auto">

@@ -2,6 +2,10 @@
   height: calc(100vh - 72px);
 }
 
+.bg-gradient {
+  background: linear-gradient(45deg, #E0E3F3, #FFFFFF, #DEF6EE);
+}
+
 .hero-illustration {
   display: flex;
   align-items: center;
